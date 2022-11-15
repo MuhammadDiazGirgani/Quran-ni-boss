@@ -1,0 +1,116 @@
+/* button */
+
+.cssbuttons-io-button {
+    background: #f2de85;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #e3ba02;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #f2de85;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #f2de85;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+
+
+/* body */
+
+* {
+    font-weight: 600;
+}
+
+
+/* navbar */
+
+.bungkus-nav {
+    background-color: #fff;
+}
+
+.nav-judul {
+    color: #2ba765;
+}
+
+.navbar-item {
+    padding-left: 250px;
+}
+
+
+/* hero */
+
+.hero {
+    background-color: #f5f9fc;
+    height: 90vh;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    line-weight: 75%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.hero p {
+    color: #000;
+}
+
+.heroimg {
+    padding-left: 150px;
+}
+
+
+/* about */
+
+.about {
+    background-color: #c9a895;
+    height: 80vh;
+    padding-top: 100px;
+}
+
+.about p {
+    color: #fff;
+}
+
+.about h2 {
+    color: #f2de85;
+}
